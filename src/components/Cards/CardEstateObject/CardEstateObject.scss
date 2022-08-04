@@ -1,0 +1,35 @@
+.estate {
+  position: relative;
+  &-img {
+    img {
+      border-radius: 13px;
+    }
+  }
+  &-title {
+    position: absolute;
+    top: 26px;
+    left: 21px;
+
+    font-family: 'Graphik LC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 121%;
+
+    color: #FFFFFF;
+  }
+
+  &-desc {
+    max-width: 174px;
+    position: absolute;
+    top: 63px;
+    left: 21px;
+    font-family: 'Graphik LC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+  }
+}
+
