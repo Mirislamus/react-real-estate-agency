@@ -1,5 +1,4 @@
-import { products } from "../../components/data/products";
-import CardEstateObject from "../../components/Cards/CardEstateObject/CardEstateObject";
+import CardEstateObject from "./CardEstateObject/CardEstateObject";
 import { useEffect, useState } from "react";
 import axios, { AxiosError } from "axios";
 import { Estate } from "../../types/models/estate";

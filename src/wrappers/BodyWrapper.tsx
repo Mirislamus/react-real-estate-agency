@@ -1,10 +1,11 @@
 import { BrowserRouter } from "react-router-dom";
-import Card from "../pages/Cards/Cards";
+import HomePage from "../pages/HomePage/HomePage";
+import "./BodyWrapper.css"
 
 const BodyWrapper = () => {
   return (
     <BrowserRouter>
-      <Card />
+      <HomePage />
     </BrowserRouter>
   )
 }
