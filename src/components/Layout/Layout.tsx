@@ -1,6 +1,7 @@
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Services from "../Services/Services";
+import Cards from "../Cards/Cards";
 
 
 const Layout = () => {
@@ -10,6 +11,7 @@ const Layout = () => {
       
       <main>
         <Services />
+        <Cards />
       </main>
      
       <Footer />

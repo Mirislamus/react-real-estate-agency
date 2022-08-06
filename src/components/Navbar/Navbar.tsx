@@ -1,3 +1,5 @@
+import { useState } from "react";
+import Modal from "../Modal/Modal";
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {

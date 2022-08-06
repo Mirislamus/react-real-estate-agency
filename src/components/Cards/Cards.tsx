@@ -2,7 +2,8 @@ import CardEstateObject from "./CardEstateObject/CardEstateObject";
 import { useEffect, useState } from "react";
 import axios, { AxiosError } from "axios";
 import { Estate } from "../../types/models/estate";
-import "./Cards.scss";
+import styles from "./Cards.module.css"
+import CardFlat from "./CardFlat/CardFlat";
 
 
 const Cards = () => {
@@ -30,13 +31,20 @@ const Cards = () => {
   }, [])
 
   return (
-    <section className="card">
-      <h1 className="card-title">Объекты недвижимости</h1>
-      <div className="card-wrapper">
+    <>
+    <section className={styles.cardEstate}>
+      <h2 className={styles.cardTitle}>Объекты недвижимости</h2>
+      <div className={styles.cardWrapper}>
         {error && <p>{ error }</p>}
         {products.map(product =><CardEstateObject product={product} key={product.id}/> ) }
       </div>
     </section>
+    
+    <section className="cardFlat">
+      <CardFlat />
+    </section>
+    </>
+    
   );
 };
 

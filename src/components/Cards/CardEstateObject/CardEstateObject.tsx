@@ -1,5 +1,5 @@
 import { Estate } from "../../../types/models/estate";
-import "./CardEstateObject.scss";
+import styles from "./CardEstateObject.module.css"
 
 interface EstateProps {
   product: Estate;
@@ -7,12 +7,12 @@ interface EstateProps {
 
 const CardEstateObject = ({ product }: EstateProps) => {
   return (
-    <div className="estate">
-      <div className="estate-img">
+    <div className={styles.estate}>
+      <div className={styles.estateImg}>
         <img src={product.image} alt="area" />
       </div>
-      <div className="estate-title">{product.title}</div>
-      <div className="estate-desc">{product.description}</div>
+      <div className={styles.estateTitle}>{product.title}</div>
+      <div className={styles.estateDesc}>{product.description}</div>
     </div>
   );
 };

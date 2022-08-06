@@ -1,0 +1,51 @@
+.flat {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flatGroup {
+  display: flex;
+  gap: 24px;
+}
+
+.awssld {
+  max-width: 332px;
+  height: 202px;
+  position: relative;
+}
+
+.awssld__bullets {
+  width: 5px;
+  height: 5px;
+}
+
+
+
+.flatTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titleContent {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.flats {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 112%;
+  color: #151515;
+}
+
+.flatAll {
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #FF4D35;
+}
