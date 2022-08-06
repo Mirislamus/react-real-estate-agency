@@ -40,7 +40,7 @@ const Header = () => {
         <hr />
 
         <div className={styles.headerMain}>
-          <div className="container">
+          <div className={styles.headerMainWrapper}>
             <h1 className={styles.headerMainText}>
               Покупка и продажа недвижимости в Старом Осколе
             </h1>
@@ -55,7 +55,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="container">
+        <div className={styles.headerMainWrapper}>
           <div className={styles.headerSettingsForm}>
             <form action="#">
               <div className={styles.rooms}>
@@ -103,11 +103,15 @@ const Header = () => {
               </div>
             </form>
           </div>
-          <button className={styles.btnForm} type="submit">
-            Показать предложения
-          </button>
+          <div className={styles.btnWrapper}>
+            <button className={styles.btnForm} type="submit">
+              Показать предложения
+            </button>
+          </div>
         </div>
+
       </div>
+      
     </header>
   );
 };

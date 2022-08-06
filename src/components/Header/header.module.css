@@ -1,10 +1,11 @@
 .header {
   background-image: url("../../images/header-bg.jpg");
-  height: 100vh;
+  /* height: 100vh; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 5px;
+  padding-bottom: 133px;
 }
 
 .headerContent {
@@ -54,6 +55,11 @@
 
 .headerMain {
   padding: 87px 0 0 0;
+}
+
+.headerMainWrapper {
+  max-width: 1044px;
+  margin: 0 auto;
 }
 
 .headerMainText {
@@ -106,7 +112,6 @@
 
 
 .headerSettingsForm {
-  max-width: 1044px;
   display: flex;
   justify-content: flex-start;
   background-color: var(--white-color);
@@ -158,6 +163,7 @@ input[type=checkbox] {
 .price{
   font-family: var(--main-font);
   font-size: 16px;
+  margin-left: 15px;
   font-weight: 400;
   line-height: 18px;
 }
@@ -172,7 +178,6 @@ input[type=checkbox] {
 .price:after {
   content: '';
   margin-left: 23px;
-  margin-right: 8px;
   border: 1px solid #DDDEE0;
   height: 15px;
 }
@@ -196,9 +201,11 @@ input[type=tel] {
 
 .district {
   display: inline-flex;
+  margin-left: 15px;
 }
 
 select {
+  width: 215px;
   border: none;
   color: #858C91;
 
@@ -216,8 +223,12 @@ select:focus-visible {
 
 /* ------------btn------------- */
 
+.btnWrapper {
+  text-align: right;
+}
+
 .btnForm {
-  padding: 11px 19px 12px 24px;
+  padding: 12px 22px 12px 22px;
   border-radius: 6px;
   background-color: #FF4D35;
 

@@ -1,6 +1,11 @@
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
+
+  const handleClick = () => {
+    alert("Modal")
+  }
+
   return (
     <div className="container">
       <div className={styles.wrapper}>
@@ -45,7 +50,7 @@ const Navbar = () => {
           </ul>
         </nav>
 
-        <button className={styles.btn} type="button">Подать заявку</button>
+        <button onClick={handleClick} className={styles.btn} type="button">Подать заявку</button>
       </div>
     </div>
   );
