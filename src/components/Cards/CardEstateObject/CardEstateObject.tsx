@@ -2,17 +2,17 @@ import { Estate } from "../../../types/models/estate";
 import styles from "./CardEstateObject.module.css"
 
 interface EstateProps {
-  product: Estate;
+  item: Estate;
 }
 
-const CardEstateObject = ({ product }: EstateProps) => {
+const CardEstateObject = ({ item }: EstateProps) => {
   return (
     <div className={styles.estate}>
       <div className={styles.estateImg}>
-        <img src={product.image} alt="area" />
+        <img src={item.image} alt="area" />
       </div>
-      <div className={styles.estateTitle}>{product.title}</div>
-      <div className={styles.estateDesc}>{product.description}</div>
+      <div className={styles.estateTitle}>{item.title}</div>
+      <div className={styles.estateDesc}>{item.description}</div>
     </div>
   );
 };

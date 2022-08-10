@@ -149,7 +149,7 @@
   height: 15px;
 }
 
-input[type=checkbox] {
+.roomsCheckBox {
   display: none;
 }
 
@@ -182,7 +182,7 @@ input[type=checkbox] {
   height: 15px;
 }
 
-input[type=tel] {
+.inputPriceAndArea{
   border:none;
   background:none;
   outline:none;

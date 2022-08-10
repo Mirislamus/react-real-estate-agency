@@ -4,7 +4,7 @@ import styles from "./CardFlat.module.css";
 
 const CardFlat = () => {
   return (
-    <div className={styles.flat}>
+    <section className={styles.flat}>
       <div className={styles.flatTitle}>
         <div className={styles.titleContent}>
           <div>
@@ -37,29 +37,35 @@ const CardFlat = () => {
       </div>
 
       <div className={styles.flatGroup}>
+        <AwesomeSlider animation="cubeAnimation"
+                       organicArrows={false} 
+                       className={styles.awssld}
+                      
+                       >
+          <div data-src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+          <div data-src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+          <div data-src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1175&q=80" />
+          <div data-src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+          <div data-src="https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1578&q=80" />
+
+          <button aria-label="next" className="awssld__next"><span className="awssld__controls__arrow-right"></span></button>
+        </AwesomeSlider>
         <AwesomeSlider organicArrows={false} className={styles.awssld}>
-          <div data-src="/path/to/image-0.png" />
-          <div data-src="/path/to/image-1.png" />
-          <div data-src="/path/to/image-2.jpg" />
-          <div data-src="/path/to/image-2.jpg" />
-          <div data-src="/path/to/image-2.jpg" />
+        <div data-src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+          <div data-src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+          <div data-src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+          <div data-src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+          <div data-src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
         </AwesomeSlider>
-        <AwesomeSlider className={styles.awssld}>
-          <div data-src="/path/to/image-0.png" />
-          <div data-src="/path/to/image-1.png" />
-          <div data-src="/path/to/image-2.jpg" />
-          <div data-src="/path/to/image-2.jpg" />
-          <div data-src="/path/to/image-2.jpg" />
-        </AwesomeSlider>
-        <AwesomeSlider className={styles.awssld}>
-          <div data-src="/path/to/image-0.png" />
-          <div data-src="/path/to/image-1.png" />
-          <div data-src="/path/to/image-2.jpg" />
-          <div data-src="/path/to/image-2.jpg" />
-          <div data-src="/path/to/image-2.jpg" />
+        <AwesomeSlider organicArrows={false} className={styles.awssld}>
+        <div data-src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+          <div data-src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+          <div data-src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+          <div data-src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+          <div data-src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
         </AwesomeSlider>
       </div>
-    </div>
+    </section>
   );
 };
 

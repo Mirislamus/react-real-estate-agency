@@ -60,16 +60,16 @@ const Header = () => {
             <form action="#">
               <div className={styles.rooms}>
                 <label className={styles.roomsNumber}>
-                  <input type="checkbox" value={1} />1
+                  <input className={styles.roomsCheckBox} type="checkbox" value={1} />1
                 </label>
                 <label className={styles.roomsNumber}>
-                  <input type="checkbox" value={2} />2
+                  <input className={styles.roomsCheckBox} type="checkbox" value={2} />2
                 </label>
                 <label className={styles.roomsNumber}>
-                  <input type="checkbox" value={3} />3
+                  <input className={styles.roomsCheckBox} type="checkbox" value={3} />3
                 </label>
                 <label className={styles.roomsNumber}>
-                  <input type="checkbox" value={4} />
+                  <input className={styles.roomsCheckBox} type="checkbox" value={4} />
                   4+
                 </label>
               </div>
@@ -77,15 +77,15 @@ const Header = () => {
               <div className={styles.priceAndArea}>
                 <label className={styles.price}>
                   <span>Цена</span>
-                  <input type="tel" placeholder="от" />
-                  <input type="tel" placeholder="до" />
+                  <input className={styles.inputPriceAndArea} type="tel" placeholder="от" />
+                  <input className={styles.inputPriceAndArea} type="tel" placeholder="до" />
                   <span>&#8381;</span>
                 </label>
 
                 <label className={styles.price}>
                   Площадь
-                  <input type="tel" placeholder="от" />
-                  <input type="tel" placeholder="до" />
+                  <input className={styles.inputPriceAndArea} type="tel" placeholder="от" />
+                  <input className={styles.inputPriceAndArea} type="tel" placeholder="до" />
                   <span>М</span>
                 </label>
               </div>

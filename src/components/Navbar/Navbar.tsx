@@ -4,10 +4,6 @@ import styles from "./Navbar.module.css";
 
 const Navbar = () => {
 
-  const handleClick = () => {
-    alert("Modal")
-  }
-
   return (
     <div className="container">
       <div className={styles.wrapper}>
@@ -51,11 +47,15 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-
-        <button onClick={handleClick} className={styles.btn} type="button">Подать заявку</button>
+        <button className={styles.btn} type="button">Подать заявку</button>
+        <Modal />
       </div>
     </div>
   );
 };
 
 export default Navbar;
+
+
+
+

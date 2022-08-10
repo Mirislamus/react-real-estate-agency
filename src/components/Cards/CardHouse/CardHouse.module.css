@@ -1,0 +1,10 @@
+.house {
+  max-width: 1205px;
+  margin: 0 auto;
+}
+
+.houseGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

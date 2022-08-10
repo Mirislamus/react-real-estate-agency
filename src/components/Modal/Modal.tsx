@@ -5,7 +5,7 @@ const Modal = () => {
   return (
     <div className={styles.Wrapper}>
       <div className={styles.modal}>
-        <div className={styles.modalText}>Есть вопросы? Оставьте заявку и мы проконсультируем вас</div>
+        <div className={styles.modalText} onClick={e => e.stopPropagation()}>Есть вопросы? Оставьте заявку и мы проконсультируем вас</div>
         <form className={styles.form} action="#">
           <label htmlFor="">
             <input className={styles.inputModalForm} type="text" placeholder="Ваше имя" />
@@ -18,7 +18,7 @@ const Modal = () => {
           </label>
           <button className={styles.btnModal} type="submit">Перезвоните мне</button>
           <div className={styles.agreement}>
-            <input type="checkbox" value="" />
+            <input className={styles.formCheckBox} type="checkbox" value="" />
             <label className={styles.checkBoxText}>Оставляя заявку вы соглашаетесь на обработку ваших персональных данных</label>
           </div>
         </form>

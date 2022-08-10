@@ -1,6 +1,6 @@
 import { Estate } from "../../types/models/estate";
 
-export const products: Estate[]  = [
+export const estate: Estate[]  = [
   {
    "title": "Новостройки",
    "description": "Лучшие новостройки в Старом Осколе",

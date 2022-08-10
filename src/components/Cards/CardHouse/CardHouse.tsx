@@ -1,16 +1,11 @@
-import './Card.scss'
+import styles from "./CardHouse.module.css";
 
 const CardHouse = () => {
   return (
-    <div className="area">
-      {/* <div className="area-img">`${images}`</div>
-      <div className="area-title">`${title}`</div>
-      <div className="area-img">`${price}`</div>
-      <div className="area-img">`${size}`</div>
-      <div className="area-img">`${position}`</div>
-      <div className="area-img">`${location}`</div> */}
-    </div>
-  )
-}
+    <section className={styles.house}>
+      <div className={styles.houseGroup}></div>
+    </section>
+  );
+};
 
 export default CardHouse;

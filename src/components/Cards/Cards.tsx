@@ -4,6 +4,7 @@ import axios, { AxiosError } from "axios";
 import { Estate } from "../../types/models/estate";
 import styles from "./Cards.module.css"
 import CardFlat from "./CardFlat/CardFlat";
+import CardHouse from "./CardHouse/CardHouse";
 
 
 const Cards = () => {
@@ -36,12 +37,13 @@ const Cards = () => {
       <h2 className={styles.cardTitle}>Объекты недвижимости</h2>
       <div className={styles.cardWrapper}>
         {error && <p>{ error }</p>}
-        {products.map(product =><CardEstateObject product={product} key={product.id}/> ) }
+        {products.map(product =><CardEstateObject item={product} key={product.id}/> ) }
       </div>
     </section>
     
     <section className="cardFlat">
       <CardFlat />
+      <CardHouse />
     </section>
     </>
     
