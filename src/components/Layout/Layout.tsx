@@ -2,6 +2,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Services from "../Services/Services";
 import Cards from "../Cards/Cards";
+import Form from "../Form/Form";
 
 
 const Layout = () => {
@@ -12,6 +13,7 @@ const Layout = () => {
       <main>
         <Services />
         <Cards />
+        <Form />
       </main>
      
       <Footer />
