@@ -1,0 +1,72 @@
+.footer {
+  padding: 47px 0 24px 0;
+}
+
+.footerWrapper {
+  max-width: 1222px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 34px;
+}
+
+.footerLogo {
+  margin-bottom: 29px;
+}
+
+.footerContact {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 8px;
+}
+
+.footerNavigation {
+  display: flex;
+  gap: 104px;
+  padding-top: 15px;
+}
+
+.footerCatalog li{
+  margin-bottom: 10px;
+}
+
+.footerCatalogTitle {
+  font-family: var(--main-font);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 18px;
+}
+
+.footerCatalogLink {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #151515;
+}
+
+.footerBottomWrapper {
+  max-width: 1210px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.bottomBanks {
+  display: flex;
+  align-items: center;
+}
+
+.bottomText {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgba(10, 37, 51, 0.6);
+}
