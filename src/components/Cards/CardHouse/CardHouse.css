@@ -1,0 +1,144 @@
+.house {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 67px;
+}
+
+.house__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.house__title {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.house__name {
+  font-family: var(--main-font);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.house__all {
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #FF4D35;
+}
+
+.house__desc {
+  display: flex;
+  overflow: hidden;
+}
+
+.house__detail {
+  max-width: 332px;
+  border: 1px solid #DBE2E8;
+  border-radius: 12px;
+  margin-right: 24px;
+}
+
+.mySwiper{
+  display: inline-flex;
+  margin-right: 24px;
+  width: 332px;
+  height: 202px;
+  border-radius: 12px 12px 0 0;
+}
+
+.swiper-pagination-bullet{
+  opacity: 1;
+  background: #fff;
+} 
+
+
+.swiper-pagination-bullet-active {
+  background: rgb(163, 163, 180);
+}
+
+.house__detail-items {
+  padding: 20px 17px 24px 17px;
+}
+
+.house__detail-name {
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  margin-bottom: 16px;
+}
+
+.house__detail-price {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.house__detail-square {
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.house__detail-square::before {
+  content: '';
+  border-left: 1px solid #BBC2C9;
+  margin: 0 13px;
+}
+
+.house__detail-square::after {
+  content: '';
+  border-right: 1px solid #BBC2C9;
+  margin: 0 13px;
+}
+
+.house__detail-floor {
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  
+}
+
+.house__detail-district {
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 16px;
+  margin-bottom: 39px;
+}
+
+.house__detail-btn {
+  position: relative;
+
+  padding: 15px 0 15px 19px;
+  width: 299px;
+
+  background: var(--white-color);
+  border: 1px solid #DBE2E8;
+  border-radius: 6px;
+
+  font-family: var(--main-font);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 17px;
+
+  cursor: pointer;
+}
+
+.house__detail-btn > img {
+  position: absolute;
+  left: 19px;
+}
+
+
+

@@ -3,8 +3,9 @@ import { useEffect, useState } from "react";
 import axios, { AxiosError } from "axios";
 import { Estate } from "../../types/models/estate";
 import styles from "./Cards.module.css"
-import CardFlat from "./CardFlat/CardFlat";
 import CardHouse from "./CardHouse/CardHouse";
+import CardFlat from "./CardFlat/CardFlat";
+import CardArea from "./CardArea/CardArea";
 
 
 const Cards = () => {
@@ -42,8 +43,9 @@ const Cards = () => {
     </section>
     
     <section className="cardFlat">
-      <CardFlat />
+      <CardFlat/>
       <CardHouse />
+      <CardArea/>
     </section>
     </>
     
