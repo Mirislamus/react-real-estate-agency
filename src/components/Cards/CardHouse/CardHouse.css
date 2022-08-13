@@ -34,14 +34,15 @@
 
 .house__desc {
   display: flex;
-  overflow: hidden;
+  position: relative;
+  box-shadow: inset -4px 0px 6px rgba(0, 0, 0, 0.04);
+  padding-bottom: 5px;
 }
 
 .house__detail {
-  max-width: 332px;
   border: 1px solid #DBE2E8;
   border-radius: 12px;
-  margin-right: 24px;
+  max-width: 332px;
 }
 
 .mySwiper{
@@ -55,7 +56,7 @@
 .swiper-pagination-bullet{
   opacity: 1;
   background: #fff;
-} 
+}
 
 
 .swiper-pagination-bullet-active {
@@ -105,7 +106,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
-  
+
 }
 
 .house__detail-district {
@@ -142,3 +143,6 @@
 
 
 
+.mySwiper2 .swiper-slide {
+  max-width: 332px;
+}
